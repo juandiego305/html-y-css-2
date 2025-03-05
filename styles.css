@@ -87,12 +87,15 @@ nav ul li a {
 
 /* Menu Section */
 .menu {
+    background-color: #e74c3c; 
+    color: #fff; 
     padding: 3rem 0;
     text-align: center;
 }
 
 .menu h2 {
     margin-bottom: 2rem;
+    color: #fff; 
 }
 
 .menu-items {
@@ -103,11 +106,13 @@ nav ul li a {
 }
 
 .menu-item {
-    background-color: #fff;
+    background-color: #fff; 
     border: 1px solid #ddd;
     padding: 1rem;
     width: 30%;
     text-align: center;
+    border-radius: 10px;
+    color: #333; 
 }
 
 .menu-item img {
@@ -117,12 +122,23 @@ nav ul li a {
 
 .menu-item h3 {
     margin: 1rem 0;
+    color: #000; 
+}
+
+.menu-item p {
+    color: #555; 
 }
 
 .menu-item .price {
     font-weight: bold;
-    color: var(--main-color);
+    color: #fff; 
+    font-size: 1.2rem; 
+    background-color: #c0392b; 
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
 }
+
 
 /* About Section */
 .about {
